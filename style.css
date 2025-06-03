@@ -1,0 +1,32 @@
+*{
+    text-align: center;
+}
+body{
+    align-items: center;
+    text-align: center;
+    background-image: url(image.png);
+    background-size: 100%;
+    justify-content: start;    
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+.block{
+    background-color: aliceblue;
+    height: 100%;
+    width: 40vw;
+    margin: 0;
+}
+.answers{
+    height: 50vh;
+    padding: 40vh 0;
+    font-size: 100px;
+}
+.answers button{
+    width: 15vw;
+    height: 5vh;
+    font-size: large;
+}
