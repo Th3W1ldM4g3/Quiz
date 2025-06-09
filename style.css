@@ -15,18 +15,27 @@ body{
     margin: 0;
 }
 .block{
-    background-color: aliceblue;
+    background-color: rgba(240, 248, 255, 0.98);
     height: 100%;
     width: 40vw;
     margin: 0;
+    border-radius: 20px;
 }
 .answers{
     height: 50vh;
     padding: 40vh 0;
     font-size: 100px;
+    box-shadow: 10px 10px 10px rgb(50, 50, 50);
 }
 .answers button{
     width: 15vw;
-    height: 5vh;
+    height: 10vh;
     font-size: large;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    border-color: black;
+    transition: 0.3;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(50, 50, 50);
+
 }
