@@ -3,18 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz de Matemática</title>
+    <title>Perguntas</title>
     <link rel="stylesheet" href="style.css">
-    <script src="index.js"></script>
 </head>
 <body>
     <div class="block">
-        <h1>Bem vindo ao quiz de Matemática!</h1>
-        <h3>Escolha a dificuldade desejada:</h3>
+        <h1 id="question">Bem vindo ao quiz de Matemática!</h1>
+        <div id="difficulty">
+            <button id="easy" >Fácil</button>
+            <button id="hard">Difícil</button>
+        </div>
         <div class="answers">
-            <button onclick="newQuestion(0)">Fácil</button>
-            <button onclick="newQuestion(1)">Difícil</button>
+            <button id="answer0">Fácil</button>
+            <button id="answer1">Difícil</button>
+            <br>
+            <button id="answer2">Terceiro</button>
+            <button id="answer3">Quarto</button>
         </div>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>

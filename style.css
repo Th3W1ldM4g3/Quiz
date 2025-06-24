@@ -6,7 +6,7 @@ body{
     text-align: center;
     background-image: url(image.png);
     background-size: 100%;
-    justify-content: start;    
+    justify-content: start;
     align-items: center;
     flex-direction: column;
     display: flex;
@@ -15,27 +15,43 @@ body{
     margin: 0;
 }
 .block{
-    background-color: rgba(240, 248, 255, 0.98);
+    background-color: rgba(5, 5, 5, 0.90);
     height: 100%;
     width: 40vw;
     margin: 0;
     border-radius: 20px;
+    color: white;
 }
 .answers{
     height: 50vh;
     padding: 40vh 0;
     font-size: 100px;
-    box-shadow: 10px 10px 10px rgb(50, 50, 50);
+    box-shadow: 10px 10px 10px rgb(200, 200, 200);
 }
 .answers button{
+    /*visibility: hidden;*/
     width: 15vw;
     height: 10vh;
     font-size: large;
-    background-color: rgb(50, 50, 50);
+    background-color: rgb(200, 200, 200);
     color: white;
     border-color: black;
     transition: 0.3;
     border-radius: 20px;
-    box-shadow: 10px 10px 10px rgb(50, 50, 50);
+    box-shadow: 10px 10px 10px rgb(200, 200, 200);
+
+}
+
+#difficulty button {
+    margin-top: 10vh;
+    width: 15vw;
+    height: 10vh;
+    font-size: large;
+    background-color: rgb(200, 200, 200);
+    color: black;
+    border-color: white;
+    transition: 0.3;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(100, 100, 100);
 
 }
