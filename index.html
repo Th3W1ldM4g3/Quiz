@@ -12,9 +12,10 @@
         <div id="difficulty">
             <button id="easy" onclick="startQuiz(0)" >Fácil</button>
             <button id="hard" onclick="startQuiz(1)">Difícil</button>
+            <button id="restart" onclick="restart()">Reiniciar</button>
         </div>
-        <div id="answers">
             <form id="formAnswers">
+                <div id="firstRowAnswers">
                 <fieldset>
                     <input type="radio" name="answer" id="answer0" onclick="checkAnswer(textAnswer0)">
                     <label for="answer0" id="textAnswer0">first</label>
@@ -23,6 +24,8 @@
                     <input type="radio" name="answer" id="answer1" onclick="checkAnswer(textAnswer1)">
                     <label for="answer1" id="textAnswer1">second</label>
                 </fieldset>
+                </div>
+                <div id="secondRowAnswers">
                 <fieldset>
                     <input type="radio" name="answer" id="answer2" onclick="checkAnswer(textAnswer2)">
                     <label for="answer2" id="textAnswer2">third</label>
@@ -31,7 +34,7 @@
                     <input type="radio" name="answer" id="answer3" onclick="checkAnswer(textAnswer3)">
                     <label for="answer3" id="textAnswer3">fourth</label>
                 </fieldset>
-                
+                </div>
             </form>
 
         </div>
